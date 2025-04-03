@@ -22,7 +22,6 @@ h1 {
 
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
     flex-direction: row;
 }
 
@@ -35,14 +34,19 @@ h1 {
 
 .cor1 {
     background-color: #ED145B;
+    order: 1;
 }
 
 .cor2 {
     background-color: #63B1BC;
+    align-self: flex-end;
+    order: 3;
 }
 
 .cor3 {
     background-color: #EFB661;
+    align-self: center;
+    order: 2;
 }
 
 .instrucoes {
